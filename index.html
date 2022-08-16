@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!--CSS Styles -->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <!-- Favicons -->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="assets/icons/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/icons/favicon-32x32.png"
+    />
+
+    <!-- Animate CSS CDN -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <title>Wallison Pereira | Web devoloper</title>
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <nav>
+      <h1>Wallison Pereira</h1>
+      <ul class="navigation">
+        <li><a href="#about" class="nav-link">Sobre</a></li>
+        <li><a href="#skills" class="nav-link">Habilidade</a></li>
+        <li><a href="#projects" class="nav-link">Projetos</a></li>
+        <li><a href="#contact" class="nav-link">Email</a></li>
+      </ul>
+      <button class="burger-menu" id="burger-menu">
+        <ion-icon class="bars" name="menu-outline"></ion-icon>
+        <!-- <ion-icon class="times" name="close-outline"></ion-icon> -->
+      </button>
+    </nav>
+    
+    
+
+    <!-- Hero Section -->
+    <section class="hero" id="about">
+      <img
+        src="assets/images/wfh_1.svg"
+        alt="jane-doe"
+        loading="lazy"
+        class="hero-img"
+      />
+      <div class="bio animate__animated animate__shakeX">
+        <h2 class="bio-title">Sobre mim</h2>
+        <p class="bio-text">
+          Sou Ux designer/programador, Cursando sistemas da informação pela Estácio, 
+          2+ anos de experiência back & front, não levanto bandeira de linguagem aprendo 
+          o que é necessário para o que deve ser feito ^^
+        </p>
+      </div>
+    </section>
+
+    <!-- More about -->
+    <section class="more-about">
+      <h2>Mais Sobre mim</h2>
+      <p>
+        Um pouco sobre mim, sou programador web de Pernambuco, trabalho com 
+        desenvolvimento de sistemas e sites. Atendo clientes de toda a região de Pernambuco, e do Brasil.
+      </p>
+      <p>
+        Trabalho na área de programação desde 2020. Iniciei como aprendiz de Python e hoje considero que conheço 
+        uma ampla gama de estrutura de HTML, HTML5, CSS, CSS3, SASS, JavaScript, jQuery, Ajax, Java, MySQL, 
+        Photoshop e Illustrator. 
+      </p>
+      <p>
+        conhecimentos em Bootstrap, Programação Orientada a Objetos, Angular . Até o momento, 
+        criei sistemas nos quais sou muito grato, pois tive que encarar inúmeros desafios e 
+        resolver grandes problemas que me ajudaram a ser o profissional que sou.
+Entre em contato, será um prazer entregar a melhor solução para você. 
+      </p>
+    </section>
+
+    <!-- Skills section -->
+    <section class="skills" id="skills">
+      <h2 class="skill-header">Top Skills</h2>
+
+      <div class="skills-wrapper">
+        <div class="first-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-html-5.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-css3.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-javascript.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+
+        <div class="second-set animate__animated animate__pulse">
+          <img
+            src="assets/icons/icons8-bootstrap.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-react-native.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+          <img
+            src="assets/icons/icons8-git.svg"
+            alt=""
+            loading="lazy"
+            class="icon icon-card"
+          />
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects section -->
+    <section class="projects" id="projects">
+      <h2 class="projects-title">Meus projetos recentes</h2>
+      <div class="projects-container">
+        <div class="project-container project-card">
+          <img
+            src="assets/images/expenseTracker.png"
+            alt="expense-tracker"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Music Player</h3>
+          <p class="project-details">
+            Player de musica com funções de play , pular e pausar utilizando 
+            JavaScript Puro , Html e Css
+          </p>
+          <a href="https://github.com/WallisonPereiraOfc/music-player" target="_blank" class="project-link">Ir Para Repositório</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/netflixClone.png"
+            alt="netflic-clone"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Jogo de Escrever</h3>
+          <p class="project-details">
+            Um mini-game para escrever 
+            palavras aleatorias que aparecem na tela com JavaScript
+          </p>
+          <a href="https://github.com/WallisonPereiraOfc/Escreva-rapido-Game" target="_blank" class="project-link">Ir Para Repositório</a>
+        </div>
+        <div class="project-container project-card">
+          <img
+            src="assets/images/greenyEarth.png"
+            alt="greeny-earth"
+            loading="lazy"
+            class="project-pic"
+          />
+          <h3 class="project-title">Anki Online</h3>
+          <p class="project-details">
+            Aplicativo web inspirado no anki com a finalidade
+            de ser usado para estudos sem a necessidade de baixar nada
+          </p>
+          <a href="https://github.com/WallisonPereiraOfc/ANKI-ONLINE" target="_blank" class="project-link">Ir Para Repositório</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section class="contact" id="contact">
+      <h2>Tem alguma Duvida?</h2>
+      <div class="contact-form-container">
+        <div class="contact-form">
+          <form action="https://formspree.io/f/xyylnggw" method="POST">
+            <div class="form-control">
+              <label for="name">Nome</label>
+              <input
+                type="text"
+                id="name"
+                name="sender-name"
+                placeholder="Seu nome"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                name="sender-email"
+                placeholder="Seu Email"
+                class="input-field"
+                required
+              />
+            </div>
+            <div class="form-control">
+              <label for="message">Mensagem</label>
+              <textarea
+                id="message"
+                cols="60"
+                rows="10"
+                placeholder="Escreva sua Mensagem"
+                name="message"
+                class="input-field"
+                required
+              ></textarea>
+            </div>
+            <input
+              type="submit"
+              value="Submit"
+              id="submit-btn"
+              class="submit-btn"
+            />
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Social accounts - Fixed to the right -->
+    <div class="socials">
+
+      <a href="https://wa.me/558197816138" target="_blank"
+      ><img
+        src="assets/icons/icons8-twitter-circled.gif"
+        alt="Twitter"
+        loading="lazy"
+        class="socicon"
+    /></a>
+      <a href="https://www.linkedin.com/in/wallison-pereira-png/" target="_blank"
+        ><img
+          src="assets/icons/icons8-linkedin-circled.gif"
+          alt="Linkedin"
+          loading="lazy"
+          class="socicon"
+      /></a>
+      <a href="https://github.com/WallisonPereiraOfc" target="_blank"
+        ><img src="assets/icons/icons8-github.gif" alt="Github" class="socicon"
+      /></a>
+    </div>
+    
+
+    <!-- Scroll to top -->
+    <i class="scroll-up" id="scroll-up"
+      ><img
+        src="assets/icons/icons8-upward-arrow.gif"
+        class="socicon up-arrow"
+        alt=""
+    /></i>
+
+    <!-- Footer section -->
+    <footer>
+      <p class="copy">&copy; Copyright 2021</p>
+      <p class="copy">
+        
+        <a href="https://www.linkedin.com/in/wallison-pereira-png/" target="_blank"
+          >Wallison Pereira</a
+        >
+      </p>
+    </footer>
+
+    <!-- Website scripts -->
+    <script src="assets/js/app.js"></script>
+
+    <!-- Ion icons scripts -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </body>
+</html>
